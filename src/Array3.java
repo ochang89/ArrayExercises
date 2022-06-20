@@ -9,13 +9,17 @@ public class Array3 {
         for(int i = 0; i < arr.length; i++){
             System.out.print(arr[i] + " ");
         }
-        // shift element to the left
+
         System.out.println("\nAfter shifting:");
+        // store initial value to move to last index
         temp = arr[0];
+
+        // replace element to the left
         for(int i = 0; i < arr.length-1; i++){
             arr[i] = arr[i+1];
             System.out.print(arr[i] + " ");
         }
+        // replace last value with initial value
         arr[arr.length-1] = temp;
         System.out.println(arr[arr.length-1]);
         }
