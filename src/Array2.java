@@ -37,11 +37,9 @@ public class Array2 {
                 // Get last element of array
                 int last = arr[arr.length - 1];
 
-
-
                 // Reverse array
-//                Integer[] arry = Arrays.stream(arr).boxed().toArray(Integer[]::new);
-//                Collections.reverse(Arrays.asList(arry));
+                // Integer[] arry = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+                // Collections.reverse(Arrays.asList(arry));
 
                 // sort array in ascending order
                 Arrays.sort(ordered);
@@ -80,10 +78,6 @@ public class Array2 {
                 for(int i = arr.length-1; i >= 0; i--){
                     System.out.printf("%d ",arr[i]);
                 }
-
-//                for (int i = 0; i < arr.length; i++) {
-//                    System.out.printf("%d ", arr[i]);
-//                }
             }
             break;
             }
